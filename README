@@ -1,0 +1,10 @@
+A Semantic Analyser for C.
+
+This is a small project taking C source file and checks for a function call and declaration semantics.
+It provides o/p onto stdout, in a neat format.
+It also aims to provide meaningful error messages.
+
+The implementation aims to keep a symbol table, which will be referred to at point of matching.
+The tokenizing of the source file will be done using PLY(Python Lex & Yacc).
+
+I hope someone will find this useful...
