@@ -1,2 +1,5 @@
 *.c
-a.out
+*.out
+parsetab.py
+__pycache__/*
+*.pyc
