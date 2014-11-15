@@ -7,4 +7,5 @@ It also aims to provide meaningful error messages.
 The implementation aims to keep a symbol table, which will be referred to at point of matching.
 The tokenizing of the source file will be done using PLY(Python Lex & Yacc).
 
-I hope someone will find this useful...
+We will have checker.py import lexer.py and parser.py files which shall contain all the lexer and parser rules as needed.
+checker.py will create the lexer and parser and perform all actions.
